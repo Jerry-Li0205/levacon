@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <!-- 移动端视口适配核心配置，保证页面适配不同手机屏幕 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>莱维康-精准营养·定制未来</title>
+    <style>
+        /* 重置默认样式，避免不同浏览器的默认边距影响 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            /* 背景色匹配原图风格，提升视觉体验 */
+            background-color: #f5f8ff;
+            /* 防止页面横向滚动 */
+            overflow-x: hidden;
+        }
+        /* 核心：图片自适应样式，保证二维码清晰可识别 */
+        .banner-img {
+            /* 图片宽度适配屏幕，高度自动保持比例，避免变形 */
+            max-width: 100%;
+            height: auto;
+            /* 图片居中显示 */
+            margin: 0 auto;
+            /* 轻微优化，让图片边缘更清晰，提升二维码识别率 */
+            image-rendering: -webkit-optimize-contrast;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- 宣传图片展示，替换src为你的图片实际链接 -->
+    <img class="banner-img" 
+         src="https://p26-flow-imagex-download-sign.byteimg.com/tos-cn-i-a9rns2rl98/425d25af21ee441f811c8fe0210224e4.jpg~tplv-a9rns2rl98-24:720:720.image?rcl=2026010514064991863424F694B202D55D&rk3s=8e244e95&rrcfp=8a172a1a&x-expires=1768198009&x-signature=n5hb7BgJOh6wNlntBaA%2FEgpv6hQ%3D" 
+         alt="莱维康精准营养健康管理服务">
+</body>
+</html>
